@@ -44,29 +44,29 @@ void setup() {
     float tc = 1000;
 
     float tl1 = c1 * tc;
+    float td1 = tc - tl1;
+
     float tl2 = c2 * tc;
+    float td2 = tc - tl2;
+
     float tl3 = c3 * tc;
+    float td3 = tc - tl3;
 
     for (;;) {
-    	unsigned long ti = millis();
     	digitalWrite(5, HIGH);
+    	delay((unsigned long)tl1);
+    	digitalWrite(5, LOW);
+    	delay((unsigned long)td1);
+
     	digitalWrite(6, HIGH);
+    	delay((unsigned long)tl2);
+    	digitalWrite(6, LOW);
+    	delay((unsigned long)td2);
+
     	digitalWrite(7, HIGH);
-    	for (;;) {
-        	unsigned long tr = millis() - ti;
-    		if (tr > tc) {
-    			break;
-    		}
-    		if (tr > tl1) {
-				digitalWrite(5, LOW);
-    		}
-    		if (tr > tl2) {
-				digitalWrite(6, LOW);
-    		}
-    		if (tr > tl3) {
-				digitalWrite(7, LOW);
-    		}
-    	}
+    	delay((unsigned long)tl3);
+    	digitalWrite(7, LOW);
+    	delay((unsigned long)td3);
     }
 }
 
