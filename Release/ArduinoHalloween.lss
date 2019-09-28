@@ -247,15 +247,15 @@ Disassembly of section .text:
  1c8:	7c 01       	movw	r14, r24
  1ca:	20 e0       	ldi	r18, 0x00	; 0
  1cc:	30 e0       	ldi	r19, 0x00	; 0
- 1ce:	40 ea       	ldi	r20, 0xA0	; 160
- 1d0:	51 e4       	ldi	r21, 0x41	; 65
+ 1ce:	4a e7       	ldi	r20, 0x7A	; 122
+ 1d0:	54 e4       	ldi	r21, 0x44	; 68
  1d2:	8d d4       	rcall	.+2330   	; 0xaee <__gesf2>
  1d4:	18 16       	cp	r1, r24
  1d6:	2c f3       	brlt	.-54     	; 0x1a2 <setup+0x6>
  1d8:	20 e0       	ldi	r18, 0x00	; 0
  1da:	30 e0       	ldi	r19, 0x00	; 0
- 1dc:	40 e0       	ldi	r20, 0x00	; 0
- 1de:	50 e4       	ldi	r21, 0x40	; 64
+ 1dc:	48 ec       	ldi	r20, 0xC8	; 200
+ 1de:	52 e4       	ldi	r21, 0x42	; 66
  1e0:	c7 01       	movw	r24, r14
  1e2:	b6 01       	movw	r22, r12
  1e4:	84 d4       	rcall	.+2312   	; 0xaee <__gesf2>
@@ -266,8 +266,8 @@ Disassembly of section .text:
  1ee:	16 d2       	rcall	.+1068   	; 0x61c <digitalWrite>
  1f0:	20 e0       	ldi	r18, 0x00	; 0
  1f2:	30 e0       	ldi	r19, 0x00	; 0
- 1f4:	40 e2       	ldi	r20, 0x20	; 32
- 1f6:	51 e4       	ldi	r21, 0x41	; 65
+ 1f4:	4a ef       	ldi	r20, 0xFA	; 250
+ 1f6:	53 e4       	ldi	r21, 0x43	; 67
  1f8:	c7 01       	movw	r24, r14
  1fa:	b6 01       	movw	r22, r12
  1fc:	78 d4       	rcall	.+2288   	; 0xaee <__gesf2>
@@ -278,8 +278,8 @@ Disassembly of section .text:
  206:	0a d2       	rcall	.+1044   	; 0x61c <digitalWrite>
  208:	20 e0       	ldi	r18, 0x00	; 0
  20a:	30 e0       	ldi	r19, 0x00	; 0
- 20c:	40 ea       	ldi	r20, 0xA0	; 160
- 20e:	51 e4       	ldi	r21, 0x41	; 65
+ 20c:	4a e7       	ldi	r20, 0x7A	; 122
+ 20e:	54 e4       	ldi	r21, 0x44	; 68
  210:	c7 01       	movw	r24, r14
  212:	b6 01       	movw	r22, r12
  214:	6c d4       	rcall	.+2264   	; 0xaee <__gesf2>

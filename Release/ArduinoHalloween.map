@@ -82,7 +82,7 @@ Discarded input sections
  .text.loop     0x0000000000000000       0x68 ./main.o
  .bss.distance  0x0000000000000000        0x4 ./main.o
  .bss.state     0x0000000000000000        0x1 ./main.o
- .bss           0x0000000000000000        0x0 /tmp/ccET7SZV.o
+ .bss           0x0000000000000000        0x0 /tmp/ccF3ZNSQ.o
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
@@ -360,7 +360,7 @@ Linker script and memory map
 Address of section .data set to 0x800100
 LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
 LOAD ./main.o
-LOAD /tmp/ccET7SZV.o
+LOAD /tmp/ccF3ZNSQ.o
 LOAD /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a
 LOAD /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a
 LOAD /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a
@@ -563,7 +563,7 @@ END GROUP
                 0x0000000000000110                __vector_14
                 0x0000000000000110                __vector_10
                 0x0000000000000110                __vector_20
- .text          0x0000000000000112       0x8a /tmp/ccET7SZV.o
+ .text          0x0000000000000112       0x8a /tmp/ccF3ZNSQ.o
                 0x0000000000000112                countPulseASM
                 0x000000000000019c                . = ALIGN (0x2)
  *(.text.*)
@@ -711,7 +711,7 @@ END GROUP
  *(.data)
  .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
  .data          0x0000000000800100        0x0 ./main.o
- .data          0x0000000000800100        0x0 /tmp/ccET7SZV.o
+ .data          0x0000000000800100        0x0 /tmp/ccF3ZNSQ.o
  .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
@@ -1104,7 +1104,7 @@ _exit                                             /usr/lib/gcc/avr/4.8.1/avr5/li
                                                   /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
 abort                                             /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
-countPulseASM                                     /tmp/ccET7SZV.o
+countPulseASM                                     /tmp/ccF3ZNSQ.o
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
 delay                                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
 delayMicroseconds                                 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)

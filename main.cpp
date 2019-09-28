@@ -41,13 +41,12 @@ void setup() {
     float c2 = 0.5;
     float c3 = 1.0;
 
-    float tc = 20;
+    float tc = 1000;
 
     float tl1 = c1 * tc;
     float tl2 = c2 * tc;
     float tl3 = c3 * tc;
 
-    // TC loop
     for (;;) {
     	unsigned long ti = millis();
     	digitalWrite(5, HIGH);
