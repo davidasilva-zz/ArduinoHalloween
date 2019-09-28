@@ -12,7 +12,19 @@ float distance = 0;
 
 void run() {
 	Serial.println("Running");
-    Serial.println("Working...");
+
+	unsigned long d = 5000;
+
+	for (unsigned long ti = millis(); millis() < (ti + d);) {
+		analogWrite(3, random(255));
+		analogWrite(5, random(255));
+		analogWrite(6, random(255));
+		delay(random(40, 500));
+	}
+	digitalWrite(3, LOW);
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	Serial.println("Done...");
 }
 
 void loop() {
@@ -34,16 +46,10 @@ void loop() {
 
 void setup() {
 
-    pinMode(3, OUTPUT);
-    pinMode(5, OUTPUT);
-    pinMode(6, OUTPUT);
-
-    for(;;) {
-    	analogWrite(3, random(255));
-        analogWrite(5, random(255));
-        analogWrite(6, random(255));
-		delay(random(40, 500));
-    }
+	Serial.begin(9600);
+	pinMode(3, OUTPUT);
+	pinMode(5, OUTPUT);
+	pinMode(6, OUTPUT);
 }
 
 int main() {
