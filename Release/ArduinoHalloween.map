@@ -1,4 +1,4 @@
-Archive member included because of file (symbol)
+Archive member included to satisfy reference by file (symbol)
 
 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
                               ./main.o (_ZN24UltrasoundDistanceSensorC1Ehh)
@@ -11,7 +11,7 @@ Archive member included because of file (symbol)
 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
                               ./main.o (_Z6randoml)
 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
-                              /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o) (__cxa_pure_virtual)
+                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__cxa_pure_virtual)
 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
                               ./main.o (millis)
 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
@@ -22,93 +22,96 @@ Archive member included because of file (symbol)
                               /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o) (pulseIn)
 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o) (yield)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o) (__mulsi3)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o) (__divmodsi4)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
-                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o (exit)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
                               ./main.o (__do_copy_data)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
                               ./main.o (__do_clear_bss)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
                               ./main.o (__do_global_ctors)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
-                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o) (__muluhisi3)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
-                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o) (__tablejump__)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
-                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o) (__muluhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o) (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__subsf3)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o) (__addsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
                               ./main.o (__ltsf2)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
                               /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o) (__divsf3)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o) (__divsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__fixunssfsi)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
                               /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o) (__floatunsisf)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
-                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__gtsf2)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o) (__fp_round)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_split3)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o) (__fp_zero)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+                              ./main.o (__gtsf2)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__mulsf3)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o) (__unordsf2)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o) (random)
-/usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+/usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o) (abort)
-/usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
-                              /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o) (__mulohisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o) (__mulohisi3)
 
 Discarded input sections
 
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
  .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
  .bss           0x0000000000000000        0x0 ./main.o
- .bss           0x0000000000000000        0x0 /tmp/ccFXujrV.o
- .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+ .data          0x0000000000000000        0x0 /tmp/ccqBFFvq.o
+ .bss           0x0000000000000000        0x0 /tmp/ccqBFFvq.o
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
- .rodata._ZTV14DistanceSensor
-                0x0000000000000000        0x6 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
  .text._ZN14HardwareSerial3endEv
                 0x0000000000000000       0x44 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .text._ZN5Print17availableForWriteEv
                 0x0000000000000000        0x6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
@@ -119,15 +122,14 @@ Discarded input sections
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .group         0x0000000000000000        0x8 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print17availableForWriteEv
                 0x0000000000000000        0x6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5flushEv
                 0x0000000000000000        0x2 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print5printEmi.part.3
-                0x0000000000000000       0x10 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x0000000000000000       0x46 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000000       0x48 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK6String
                 0x0000000000000000       0x1c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPKc
@@ -142,49 +144,50 @@ Discarded input sections
                 0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
                 0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print5printEli
-                0x0000000000000000       0x94 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print5printEii
-                0x0000000000000000       0x10 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEii
-                0x0000000000000000       0x30 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEli
-                0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print5printEmi
-                0x0000000000000000        0xe /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5printEhi
                 0x0000000000000000        0xe /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
-                0x0000000000000000       0x2e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .text._ZN5Print5printEji
-                0x0000000000000000        0xc /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEji
-                0x0000000000000000       0x2c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
+                0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEli
+                0x0000000000000000       0x90 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEii
+                0x0000000000000000        0xe /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
                 0x0000000000000000       0x24 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
                 0x0000000000000000        0x4 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
                 0x0000000000000000        0xc /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .text._Z10randomSeedm
                 0x0000000000000000       0x10 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .text._Z3maplllll
-                0x0000000000000000       0x8e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+                0x0000000000000000       0x82 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .text._Z8makeWordj
                 0x0000000000000000        0x2 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .text._Z8makeWordhh
                 0x0000000000000000        0xa /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
  .text.__cxa_pure_virtual
                 0x0000000000000000        0x4 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
  .text.__cxa_deleted_virtual
                 0x0000000000000000        0x4 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
+ .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
  .text.analogReference
                 0x0000000000000000        0x6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
@@ -193,226 +196,261 @@ Discarded input sections
  .data.analog_reference
                 0x0000000000000000        0x1 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
  .text.digitalRead
                 0x0000000000000000       0x52 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
  .text.pulseInLong
-                0x0000000000000000      0x14e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
+                0x0000000000000000      0x10a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
  .text          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .data          0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
  .bss           0x0000000000000000        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.mul
-                0x0000000000000000       0x20 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000000000       0x20 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
  .text.avr-libc
-                0x0000000000000000        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0xa /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
  .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
  .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
  .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
  .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
  .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
 
 Memory Configuration
 
@@ -420,7 +458,7 @@ Name             Origin             Length             Attributes
 text             0x0000000000000000 0x0000000000020000 xr
 data             0x0000000000800060 0x000000000000ffa0 rw !x
 eeprom           0x0000000000810000 0x0000000000010000 rw !x
-fuse             0x0000000000820000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
 lock             0x0000000000830000 0x0000000000000400 rw !x
 signature        0x0000000000840000 0x0000000000000400 rw !x
 user_signatures  0x0000000000850000 0x0000000000000400 rw !x
@@ -429,18 +467,26 @@ user_signatures  0x0000000000850000 0x0000000000000400 rw !x
 Linker script and memory map
 
 Address of section .data set to 0x800100
-LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 LOAD ./main.o
-LOAD /tmp/ccFXujrV.o
+LOAD /tmp/ccqBFFvq.o
 LOAD /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a
 LOAD /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a
-LOAD /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a
-LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
 START GROUP
-LOAD /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a
-LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a
-LOAD /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
 END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
 
 .hash
  *(.hash)
@@ -532,9 +578,9 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x147e
+.text           0x0000000000000000     0x1502
  *(.vectors)
- .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
                 0x0000000000000000                __vectors
                 0x0000000000000000                __vector_default
  *(.vectors)
@@ -545,6 +591,8 @@ END GROUP
  .trampolines   0x0000000000000068        0x0 linker stubs
  *(.trampolines*)
                 0x0000000000000068                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
  *(.progmem*)
  .progmem.data.digital_pin_to_timer_PGM
                 0x0000000000000068       0x14 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
@@ -580,26 +628,26 @@ END GROUP
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000000000000c6        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .init0         0x00000000000000c6        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
                 0x00000000000000c6                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000000000000c6        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .init2         0x00000000000000c6        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000000000000d2       0x16 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
+ .init4         0x00000000000000d2       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
                 0x00000000000000d2                __do_copy_data
- .init4         0x00000000000000e8       0x10 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+ .init4         0x00000000000000e8       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
                 0x00000000000000e8                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x00000000000000f8       0x14 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+ .init6         0x00000000000000f8       0x14 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
                 0x00000000000000f8                __do_global_ctors
  *(.init6)
  *(.init7)
@@ -607,10 +655,10 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000000000010c        0x6 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .init9         0x000000000000010c        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
  *(.init9)
  *(.text)
- .text          0x0000000000000112        0x2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+ .text          0x0000000000000112        0x2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
                 0x0000000000000112                __vector_22
                 0x0000000000000112                __vector_1
                 0x0000000000000112                __vector_24
@@ -634,227 +682,232 @@ END GROUP
                 0x0000000000000112                __vector_14
                 0x0000000000000112                __vector_10
                 0x0000000000000112                __vector_20
- .text          0x0000000000000114       0x8a /tmp/ccFXujrV.o
+ .text          0x0000000000000114       0x8a /tmp/ccqBFFvq.o
                 0x0000000000000114                countPulseASM
                 0x000000000000019e                . = ALIGN (0x2)
  *(.text.*)
- .text._Z3runv  0x000000000000019e       0x94 ./main.o
+ .text._Z3runv  0x000000000000019e       0xaa ./main.o
                 0x000000000000019e                _Z3runv
- .text.setup    0x0000000000000232       0x22 ./main.o
-                0x0000000000000232                setup
+ .text.setup    0x0000000000000248       0x40 ./main.o
+                0x0000000000000248                setup
  .text.startup._GLOBAL__sub_I_sensor
-                0x0000000000000254        0xa ./main.o
- .text.loop     0x000000000000025e       0x60 ./main.o
-                0x000000000000025e                loop
+                0x0000000000000288        0xa ./main.o
+ .text.loop     0x0000000000000292       0x84 ./main.o
+                0x0000000000000292                loop
  .text.startup.main
-                0x00000000000002be       0x12 ./main.o
-                0x00000000000002be                main
+                0x0000000000000316       0x12 ./main.o
+                0x0000000000000316                main
  .text._ZN24UltrasoundDistanceSensorC2Ehh
-                0x00000000000002d0       0x2e /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-                0x00000000000002d0                _ZN24UltrasoundDistanceSensorC2Ehh
-                0x00000000000002d0                _ZN24UltrasoundDistanceSensorC1Ehh
+                0x0000000000000328       0x20 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+                0x0000000000000328                _ZN24UltrasoundDistanceSensorC2Ehh
+                0x0000000000000328                _ZN24UltrasoundDistanceSensorC1Ehh
  .text._ZN24UltrasoundDistanceSensor11getEchoTimeEv
-                0x00000000000002fe       0x34 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-                0x00000000000002fe                _ZN24UltrasoundDistanceSensor11getEchoTimeEv
+                0x0000000000000348       0x2a /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+                0x0000000000000348                _ZN24UltrasoundDistanceSensor11getEchoTimeEv
  .text._ZN24UltrasoundDistanceSensor11getDistanceEv
-                0x0000000000000332        0xe /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-                0x0000000000000332                _ZN24UltrasoundDistanceSensor11getDistanceEv
+                0x0000000000000372        0xe /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+                0x0000000000000372                _ZN24UltrasoundDistanceSensor11getDistanceEv
  .text._ZN14HardwareSerial9availableEv
-                0x0000000000000340       0x16 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x0000000000000340                _ZN14HardwareSerial9availableEv
+                0x0000000000000380       0x18 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000380                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x0000000000000356       0x1c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x0000000000000356                _ZN14HardwareSerial4peekEv
+                0x0000000000000398       0x1c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000398                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x0000000000000372       0x28 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x0000000000000372                _ZN14HardwareSerial4readEv
+                0x00000000000003b4       0x28 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000003b4                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x000000000000039a       0x1e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x000000000000039a                _ZN14HardwareSerial17availableForWriteEv
+                0x00000000000003dc       0x1e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000003dc                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x00000000000003b8       0x1a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x00000000000003b8                _Z14serialEventRunv
+                0x00000000000003fa       0x1a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000003fa                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00000000000003d2       0x44 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x00000000000003d2                _ZN14HardwareSerial17_tx_udr_empty_irqEv
- .text._ZN14HardwareSerial5flushEv
-                0x0000000000000416       0x42 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x0000000000000416                _ZN14HardwareSerial5flushEv
+                0x0000000000000414       0x44 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000414                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x0000000000000458       0xd4 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000458       0x98 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
                 0x0000000000000458                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5flushEv
+                0x00000000000004f0       0x42 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x00000000000004f0                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x000000000000052c       0xc0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                0x000000000000052c                _ZN14HardwareSerial5beginEmh
+                0x0000000000000532       0xc6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                0x0000000000000532                _ZN14HardwareSerial5beginEmh
  .text.__vector_18
-                0x00000000000005ec       0x64 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                0x00000000000005ec                __vector_18
+                0x00000000000005f8       0x64 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x00000000000005f8                __vector_18
  .text.__vector_19
-                0x0000000000000650       0x4a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                0x0000000000000650                __vector_19
+                0x000000000000065c       0x4a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x000000000000065c                __vector_19
  .text._Z17Serial0_availablev
-                0x000000000000069a       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                0x000000000000069a                _Z17Serial0_availablev
+                0x00000000000006a6       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x00000000000006a6                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00000000000006ac       0x86 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                0x00000000000006b8       0x5a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
  .text._ZN5Print5writeEPKhj
-                0x0000000000000732       0x50 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x0000000000000732                _ZN5Print5writeEPKhj
+                0x0000000000000712       0x54 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000712                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x0000000000000782       0x2c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x0000000000000782                _ZN5Print5writeEPKc
+                0x0000000000000766       0x2a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000766                _ZN5Print5writeEPKc
  .text._ZN5Print5printEc
-                0x00000000000007ae        0xe /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x00000000000007ae                _ZN5Print5printEc
+                0x0000000000000790        0xe /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000790                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x00000000000007bc        0x6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x00000000000007bc                _ZN5Print7printlnEv
+                0x000000000000079e        0x6 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x000000000000079e                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x00000000000007c2       0x20 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x00000000000007c2                _ZN5Print7printlnEPKc
+                0x00000000000007a4       0x20 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x00000000000007a4                _ZN5Print7printlnEPKc
  .text._ZN5Print11printNumberEmh
-                0x00000000000007e2       0x9a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x00000000000007e2                _ZN5Print11printNumberEmh
+                0x00000000000007c4       0x8e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x00000000000007c4                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x0000000000000852       0x18 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000852                _ZN5Print5printEmi
+ .text._ZN5Print5printEji
+                0x000000000000086a        0xa /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x000000000000086a                _ZN5Print5printEji
  .text._ZN5Print10printFloatEdh
-                0x000000000000087c      0x192 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x000000000000087c                _ZN5Print10printFloatEdh
+                0x0000000000000874      0x18e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000874                _ZN5Print10printFloatEdh
  .text._ZN5Print7printlnEdi
-                0x0000000000000a0e       0x20 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                0x0000000000000a0e                _ZN5Print7printlnEdi
+                0x0000000000000a02       0x20 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                0x0000000000000a02                _ZN5Print7printlnEdi
  .text._Z6randoml
-                0x0000000000000a2e       0x44 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-                0x0000000000000a2e                _Z6randoml
+                0x0000000000000a22       0x30 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+                0x0000000000000a22                _Z6randoml
  .text._Z6randomll
-                0x0000000000000a72       0x36 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-                0x0000000000000a72                _Z6randomll
+                0x0000000000000a52       0x42 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+                0x0000000000000a52                _Z6randomll
  .text.__vector_16
-                0x0000000000000aa8       0x94 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000aa8                __vector_16
- .text.millis   0x0000000000000b3c       0x18 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000b3c                millis
- .text.micros   0x0000000000000b54       0x46 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000b54                micros
- .text.delay    0x0000000000000b9a       0x6e /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000b9a                delay
+                0x0000000000000a94       0x94 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000a94                __vector_16
+ .text.millis   0x0000000000000b28       0x18 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000b28                millis
+ .text.micros   0x0000000000000b40       0x4a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000b40                micros
+ .text.delay    0x0000000000000b8a       0x72 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000b8a                delay
  .text.delayMicroseconds
-                0x0000000000000c08       0x16 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000c08                delayMicroseconds
- .text.init     0x0000000000000c1e       0x76 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                0x0000000000000c1e                init
+                0x0000000000000bfc       0x16 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000bfc                delayMicroseconds
+ .text.init     0x0000000000000c12       0x76 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+                0x0000000000000c12                init
  .text.analogWrite
-                0x0000000000000c94       0xba /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
-                0x0000000000000c94                analogWrite
+                0x0000000000000c88       0xba /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
+                0x0000000000000c88                analogWrite
  .text.turnOffPWM
-                0x0000000000000d4e       0x52 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x0000000000000da0       0x72 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
-                0x0000000000000da0                pinMode
+                0x0000000000000d42       0x52 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x0000000000000d94       0x78 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+                0x0000000000000d94                pinMode
  .text.digitalWrite
-                0x0000000000000e12       0x6a /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
-                0x0000000000000e12                digitalWrite
- .text.pulseIn  0x0000000000000e7c       0x56 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
-                0x0000000000000e7c                pulseIn
- .text.__empty  0x0000000000000ed2        0x2 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
-                0x0000000000000ed2                yield
+                0x0000000000000e0c       0x5c /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+                0x0000000000000e0c                digitalWrite
+ .text.pulseIn  0x0000000000000e68       0x62 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
+                0x0000000000000e68                pulseIn
+ .text.__empty  0x0000000000000eca        0x2 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+                0x0000000000000eca                yield
  .text.libgcc.div
-                0x0000000000000ed4       0x44 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
-                0x0000000000000ed4                __udivmodsi4
+                0x0000000000000ecc       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000000ecc                __udivmodsi4
  .text.libgcc.div
-                0x0000000000000f18       0x28 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
-                0x0000000000000f18                __divmodsi4
+                0x0000000000000f10       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000000f10                __divmodsi4
  .text.libgcc.div
-                0x0000000000000f40       0x10 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
-                0x0000000000000f40                __negsi2
+                0x0000000000000f38       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                0x0000000000000f38                __negsi2
  .text.libgcc.mul
-                0x0000000000000f50       0x14 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
-                0x0000000000000f50                __muluhisi3
- .text.libgcc   0x0000000000000f64        0xc /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
-                0x0000000000000f64                __tablejump2__
-                0x0000000000000f68                __tablejump__
+                0x0000000000000f48       0x14 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000000f48                __muluhisi3
+ .text.libgcc   0x0000000000000f5c        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000000f5c                __tablejump2__
  .text.libgcc.mul
-                0x0000000000000f70       0x1e /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
-                0x0000000000000f70                __umulhisi3
+                0x0000000000000f68       0x1e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000000f68                __umulhisi3
  .text.avr-libc.fplib
-                0x0000000000000f8e        0xa /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
-                0x0000000000000f8e                __subsf3
-                0x0000000000000f90                __addsf3
+                0x0000000000000f86        0xa /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                0x0000000000000f86                __subsf3
+                0x0000000000000f88                __addsf3
  .text.avr-libc.fplib
-                0x0000000000000f98       0xc0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-                0x0000000000000fb2                __addsf3x
+                0x0000000000000f90       0xc0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                0x0000000000000faa                __addsf3x
  .text.avr-libc.fplib
-                0x0000000000001058        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-                0x0000000000001058                __lesf2
-                0x0000000000001058                __nesf2
-                0x0000000000001058                __eqsf2
-                0x0000000000001058                __cmpsf2
-                0x0000000000001058                __ltsf2
+                0x0000000000001050        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                0x0000000000001050                __lesf2
+                0x0000000000001050                __nesf2
+                0x0000000000001050                __eqsf2
+                0x0000000000001050                __cmpsf2
+                0x0000000000001050                __ltsf2
  .text.avr-libc.fplib
-                0x0000000000001060        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
-                0x0000000000001060                __divsf3
+                0x0000000000001058        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                0x0000000000001058                __divsf3
  .text.avr-libc.fplib
-                0x0000000000001064       0xcc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                0x000000000000107a                __divsf3x
-                0x000000000000107e                __divsf3_pse
+                0x000000000000105c       0xcc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                0x0000000000001072                __divsf3x
+                0x0000000000001076                __divsf3_pse
  .text.avr-libc.fplib
-                0x0000000000001130       0x58 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
-                0x0000000000001130                __fixunssfsi
+                0x0000000000001128       0x58 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                0x0000000000001128                __fixunssfsi
  .text.avr-libc.fplib
-                0x0000000000001188       0x7a /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
-                0x0000000000001188                __floatunsisf
-                0x000000000000118c                __floatsisf
+                0x0000000000001180       0x7a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+                0x0000000000001180                __floatunsisf
+                0x0000000000001184                __floatsisf
  .text.avr-libc.fplib
-                0x0000000000001202       0x48 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
-                0x0000000000001202                __fp_cmp
+                0x00000000000011fa       0x48 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                0x00000000000011fa                __fp_cmp
  .text.avr-libc.fplib
-                0x000000000000124a        0xc /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
-                0x000000000000124a                __fp_inf
+                0x0000000000001242        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                0x0000000000001242                __fp_inf
  .text.avr-libc.fplib
-                0x0000000000001256        0x6 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
-                0x0000000000001256                __fp_nan
+                0x000000000000124e        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                0x000000000000124e                __fp_nan
  .text.avr-libc.fplib
-                0x000000000000125c        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
-                0x000000000000125c                __fp_pscA
+                0x0000000000001254        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                0x0000000000001254                __fp_pscA
  .text.avr-libc.fplib
-                0x000000000000126a        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
-                0x000000000000126a                __fp_pscB
+                0x0000000000001262        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                0x0000000000001262                __fp_pscB
  .text.avr-libc.fplib
-                0x0000000000001278       0x22 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
-                0x0000000000001278                __fp_round
+                0x0000000000001270       0x22 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                0x0000000000001270                __fp_round
  .text.avr-libc.fplib
-                0x000000000000129a       0x44 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
-                0x000000000000129a                __fp_split3
-                0x00000000000012aa                __fp_splitA
+                0x0000000000001292       0x44 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                0x0000000000001292                __fp_split3
+                0x00000000000012a2                __fp_splitA
  .text.avr-libc.fplib
-                0x00000000000012de        0xe /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
-                0x00000000000012de                __fp_zero
-                0x00000000000012e0                __fp_szero
+                0x00000000000012d6        0xe /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                0x00000000000012d6                __fp_zero
+                0x00000000000012d8                __fp_szero
  .text.avr-libc.fplib
-                0x00000000000012ec        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
-                0x00000000000012ec                __gtsf2
-                0x00000000000012ec                __gesf2
+                0x00000000000012e4        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+                0x00000000000012e4                __gtsf2
+                0x00000000000012e4                __gesf2
  .text.avr-libc.fplib
-                0x00000000000012f4        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
-                0x00000000000012f4                __mulsf3
+                0x00000000000012ec        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                0x00000000000012ec                __mulsf3
  .text.avr-libc.fplib
-                0x00000000000012f8       0xc2 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                0x000000000000130c                __mulsf3x
-                0x0000000000001310                __mulsf3_pse
+                0x00000000000012f0       0xc2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                0x0000000000001304                __mulsf3x
+                0x0000000000001308                __mulsf3_pse
  .text.avr-libc.fplib
-                0x00000000000013ba        0x8 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
-                0x00000000000013ba                __unordsf2
+                0x00000000000013b2        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                0x00000000000013b2                __unordsf2
  .text.avr-libc
-                0x00000000000013c2       0xac /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
-                0x0000000000001454                random_r
-                0x0000000000001456                random
-                0x000000000000145c                srandom
+                0x00000000000013ba      0x138 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+                0x00000000000013ba                random_r
+                0x000000000000144a                random
+                0x00000000000014e0                srandom
  .text.libgcc.mul
-                0x000000000000146e        0xc /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
-                0x000000000000146e                __mulshisi3
-                0x0000000000001472                __mulohisi3
-                0x000000000000147a                . = ALIGN (0x2)
+                0x00000000000014f2        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+                0x00000000000014f2                __mulshisi3
+                0x00000000000014f6                __mulohisi3
+                0x00000000000014fe                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000000000000147a        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
-                0x000000000000147a                exit
-                0x000000000000147a                _exit
+ .fini9         0x00000000000014fe        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x00000000000014fe                exit
+                0x00000000000014fe                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -873,61 +926,16 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000000000000147a        0x4 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
+ .fini0         0x00000000000014fe        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
  *(.fini0)
-                0x000000000000147e                _etext = .
+                0x0000000000001502                _etext = .
 
-.data           0x0000000000800100       0x3c load address 0x000000000000147e
+.data           0x0000000000800100       0x3c load address 0x0000000000001502
                 0x0000000000800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
- .data          0x0000000000800100        0x0 ./main.o
- .data          0x0000000000800100        0x0 /tmp/ccFXujrV.o
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
- .data          0x0000000000800100        0x0 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
- .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
- .data          0x0000000000800100        0x4 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
- .data          0x0000000000800104        0x0 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
- .data          0x0000000000800104        0x0 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
+ .data          0x0000000000800100        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
  *(.data*)
+ *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
@@ -940,7 +948,7 @@ END GROUP
                 0x000000000080011a                _ZTV14HardwareSerial
  .rodata.str1.1
                 0x000000000080012c        0xf /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
                 0x000000000080013c                . = ALIGN (0x2)
  *fill*         0x000000000080013b        0x1 
                 0x000000000080013c                _edata = .
@@ -968,15 +976,15 @@ END GROUP
                 0x00000000008001e7                timer0_overflow_count
  *(COMMON)
                 0x00000000008001eb                PROVIDE (__bss_end, .)
-                0x000000000000147e                __data_load_start = LOADADDR (.data)
-                0x00000000000014ba                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000001502                __data_load_start = LOADADDR (.data)
+                0x000000000000153e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00000000008001eb        0x0
-                0x00000000008001eb                PROVIDE (__noinit_start, .)
+                [!provide]                        PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00000000008001eb                PROVIDE (__noinit_end, .)
+                [!provide]                        PROVIDE (__noinit_end, .)
                 0x00000000008001eb                _end = .
-                0x00000000008001eb                PROVIDE (__heap_start, .)
+                [!provide]                        PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
  *(.eeprom*)
@@ -1019,18 +1027,22 @@ END GROUP
  *(.comment)
  .comment       0x0000000000000000       0x11 ./main.o
                                          0x12 (size before relaxing)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
- .comment       0x0000000000000000       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
- .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
+ .comment       0x0000000000000011       0x12 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 
 .note.gnu.build-id
  *(.note.gnu.build-id)
@@ -1053,20 +1065,24 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info
+.debug_info     0x0000000000000000      0x5f4
  *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 
-.debug_abbrev
+.debug_abbrev   0x0000000000000000      0x5a2
  *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 
-.debug_line
+.debug_line     0x0000000000000000       0x1a
  *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 
 .debug_frame
  *(.debug_frame)
 
-.debug_str
+.debug_str      0x0000000000000000      0x208
  *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 
 .debug_loc
  *(.debug_loc)
@@ -1100,226 +1116,242 @@ LOAD linker stubs
 Cross Reference Table
 
 Symbol                                            File
-HardwareSerial::_tx_udr_empty_irq()               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-HardwareSerial::available()                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-HardwareSerial::availableForWrite()               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-HardwareSerial::begin(unsigned long, unsigned char) /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                                                  ./main.o
-HardwareSerial::end()                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-HardwareSerial::flush()                           /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-HardwareSerial::peek()                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-HardwareSerial::read()                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-HardwareSerial::write(unsigned char)              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-Print::availableForWrite()                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::flush()                                    /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(Printable const&)                    /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(String const&)                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(__FlashStringHelper const*)          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(char const*)                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(char)                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(double, int)                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(int, int)                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(long, int)                           /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(unsigned char, int)                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(unsigned int, int)                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::print(unsigned long, int)                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::printFloat(double, unsigned char)          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::printNumber(unsigned long, unsigned char)  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println()                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(Printable const&)                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(String const&)                     /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(__FlashStringHelper const*)        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(char const*)                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                                                  ./main.o
-Print::println(char)                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(double, int)                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                                                  ./main.o
-Print::println(int, int)                          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(long, int)                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(unsigned char, int)                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(unsigned int, int)                 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::println(unsigned long, int)                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::write(char const*)                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-Print::write(unsigned char const*, unsigned int)  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
 Serial                                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
                                                   ./main.o
-Serial0_available()                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+_Z10randomSeedm                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+_Z11serialEventv                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_Z14serialEventRunv                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  ./main.o
+_Z17Serial0_availablev                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-UltrasoundDistanceSensor::UltrasoundDistanceSensor(unsigned char, unsigned char) /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-UltrasoundDistanceSensor::UltrasoundDistanceSensor(unsigned char, unsigned char) /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+_Z3maplllll                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+_Z3runv                                           ./main.o
+_Z6randoml                                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
                                                   ./main.o
-UltrasoundDistanceSensor::getDistance()           /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+_Z6randomll                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
                                                   ./main.o
-UltrasoundDistanceSensor::getEchoTime()           /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-__addsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+_Z8makeWordhh                                     /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+_Z8makeWordj                                      /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+_ZN14HardwareSerial17_tx_udr_empty_irqEv          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+_ZN14HardwareSerial17availableForWriteEv          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial3endEv                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial4peekEv                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial4readEv                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial5beginEmh                      /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  ./main.o
+_ZN14HardwareSerial5flushEv                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial5writeEh                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN14HardwareSerial9availableEv                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+_ZN24UltrasoundDistanceSensor11getDistanceEv      /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+                                                  ./main.o
+_ZN24UltrasoundDistanceSensor11getEchoTimeEv      /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+_ZN24UltrasoundDistanceSensorC1Ehh                /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+                                                  ./main.o
+_ZN24UltrasoundDistanceSensorC2Ehh                /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+_ZN5Print10printFloatEdh                          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print11printNumberEmh                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print17availableForWriteEv                    /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__addsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
-__bad_interrupt                                   /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__bss_end                                         /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
-__bss_start                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
-__cmpsf2                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-__ctors_end                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
-__ctors_start                                     /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+_ZN5Print5flushEv                                 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEPK19__FlashStringHelper           /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEPKc                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printERK6String                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printERK9Printable                      /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEc                                 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEdi                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEhi                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEii                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEji                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEli                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5printEmi                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5writeEPKc                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print5writeEPKhj                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+_ZN5Print7printlnEPK19__FlashStringHelper         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEPKc                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+_ZN5Print7printlnERK6String                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnERK9Printable                    /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEc                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEdi                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+_ZN5Print7printlnEhi                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEii                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEji                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEli                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEmi                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZN5Print7printlnEv                               /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+_ZTV14HardwareSerial                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
+_ZTV24UltrasoundDistanceSensor                    /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
+_ZTV5Print                                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__addsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__addsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
 __cxa_deleted_virtual                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
 __cxa_pure_virtual                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-                                                  /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-__data_end                                        /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
-__data_load_start                                 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
-__data_start                                      /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
-__divmodsi4                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__divmodsi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-__divsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
+__divsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
                                                   /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-__divsf3_pse                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-__divsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
-__do_clear_bss                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_clear_bss.o)
+__divsf3_pse                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__divsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
                                                   ./main.o
-__do_copy_data                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_copy_data.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
                                                   /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
                                                   ./main.o
-__do_global_ctors                                 /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
+__do_global_ctors                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
                                                   ./main.o
-__eqsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-__fixunssfsi                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+__eqsf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__floatsisf                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
-__floatunsisf                                     /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(floatsisf.o)
+__floatsisf                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
+__floatunsisf                                     /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(floatsisf.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
                                                   /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-__fp_cmp                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_cmp.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-__fp_inf                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_inf.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__fp_nan                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_nan.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__fp_pscA                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscA.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__fp_pscB                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_pscB.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__fp_round                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_round.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
-__fp_split3                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__fp_splitA                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_split3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
-__fp_szero                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(divsf3x.o)
-__fp_zero                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fp_zero.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3x.o)
-__gesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
-__gtsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(gesf2.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__heap_end                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__init                                            /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__lesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__ltsf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fp_cmp                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_cmp.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_nan                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscA                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(divsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(fixunssfsi.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3x.o)
+__gesf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
+__gtsf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(gesf2.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
                                                   ./main.o
-__mulohisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
-__mulsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__lesf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__mulsf3_pse                                      /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-__mulsf3x                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(mulsf3.o)
-__mulshisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
-__mulsi3                                          /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
+__ltsf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+                                                  ./main.o
+__mulohisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+__mulsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
+__mulsf3_pse                                      /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(mulsf3.o)
+__mulshisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+__mulsi3                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-__muluhisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulshisi3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_mulsi3.o)
-__negsi2                                          /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_negsi2.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
-__nesf2                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(cmpsf2.o)
-__stack                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__subsf3                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(addsf3.o)
+__muluhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+__negsi2                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+__nesf2                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(cmpsf2.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__subsf3                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(addsf3.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__tablejump2__                                    /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
-__tablejump__                                     /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_tablejump.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_ctors.o)
-__udivmodsi4                                      /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_udivmodsi4.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_divmodsi4.o)
+__tablejump2__                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_ctors.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-__umulhisi3                                       /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_umulhisi3.o)
-                                                  /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_muluhisi3.o)
-__unordsf2                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libm.a(unordsf2.o)
+__umulhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+__unordsf2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a(unordsf2.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-__vector_1                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_10                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_11                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_12                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_13                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_14                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_15                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+__vector_1                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 __vector_16                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_17                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 __vector_18                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 __vector_19                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_2                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_20                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_21                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_22                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_23                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_24                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_25                                       /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_3                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_4                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_5                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_6                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_7                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_8                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_9                                        /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vector_default                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-__vectors                                         /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-_exit                                             /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
-abort                                             /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(abort.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
+abort                                             /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(abort.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(abi.o)
 analogRead                                        /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
 analogReference                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
 analogWrite                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
                                                   ./main.o
 analog_reference                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
-countPulseASM                                     /tmp/ccFXujrV.o
+countPulseASM                                     /tmp/ccqBFFvq.o
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
 delay                                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
                                                   ./main.o
@@ -1337,16 +1369,13 @@ digital_pin_to_port_PGM                           /home/dalmir/work/arduino/Ardu
 digital_pin_to_timer_PGM                          /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_digital.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_analog.o)
 distance                                          ./main.o
-exit                                              /usr/lib/gcc/avr/4.8.1/avr5/libgcc.a(_exit.o)
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 init                                              /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
                                                   ./main.o
 loop                                              ./main.o
 main                                              ./main.o
-                                                  /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/crtm328p.o
-makeWord(unsigned char, unsigned char)            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-makeWord(unsigned int)                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-map(long, long, long, long, long)                 /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
 micros                                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
 millis                                            /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
@@ -1362,29 +1391,15 @@ port_to_output_PGM                                /home/dalmir/work/arduino/Ardu
 pulseIn                                           /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
                                                   /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
 pulseInLong                                       /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring_pulse.o)
-random                                            /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+random                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-random(long)                                      /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-                                                  ./main.o
-random(long, long)                                /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-                                                  ./main.o
-randomSeed(unsigned long)                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
-random_r                                          /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
-run()                                             ./main.o
+random_r                                          /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
 sensor                                            ./main.o
-serialEvent()                                     /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-serialEventRun()                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                                                  ./main.o
 setup                                             ./main.o
-srandom                                           /usr/lib/gcc/avr/4.8.1/../../../avr/lib/avr5/libc.a(random.o)
+srandom                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a(random.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(WMath.o)
 state                                             ./main.o
 timer0_millis                                     /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
 timer0_overflow_count                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
-vtable for DistanceSensor                         /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
-vtable for HardwareSerial                         /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial.o)
-                                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(HardwareSerial0.o)
-vtable for Print                                  /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(Print.o)
-vtable for UltrasoundDistanceSensor               /home/dalmir/work/arduino/ArduinoLibraries/ArduinoDistanceDriver/Release/libArduinoDistanceDriver.a(UltrasoundDistanceSensor.o)
 yield                                             /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(hooks.o)
                                                   /home/dalmir/work/arduino/ArduinoCore/Release/libArduinoCore.a(wiring.o)
