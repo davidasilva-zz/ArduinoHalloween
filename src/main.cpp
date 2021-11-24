@@ -1,19 +1,19 @@
 #include <Arduino.h>
-#include <UltrasoundDistanceSensor.h>
+#include <UltrasoundDistanceSensor/UltrasoundDistanceSensor.h>
 
-#define IDLE        0
-#define ACTIVE        1
-#define DISTANCE_ACTIVATION_THRESHOLD 100
-#define ECHO_PIN    8
-#define TRIGGER_PIN    9
-#define RED_PIN    3
-#define GREEN_PIN    5
-#define BLUE_PIN    6
-#define MUSIC_PIN    12
-#define MUSIC_ON_PULSE_WIDTH    10
-#define ANIMATION_DURATION    8000
-#define MIN_COLOR_TIME 40
-#define MAX_COLOR_TIME 500
+#define IDLE                            0
+#define ACTIVE                          1
+#define DISTANCE_ACTIVATION_THRESHOLD   100
+#define ECHO_PIN                        8
+#define TRIGGER_PIN                     9
+#define RED_PIN                         3
+#define GREEN_PIN                       5
+#define BLUE_PIN                        6
+#define MUSIC_PIN                       12
+#define MUSIC_ON_PULSE_WIDTH            10
+#define ANIMATION_DURATION              8000
+#define MIN_COLOR_TIME                  40
+#define MAX_COLOR_TIME                  500
 
 UltrasoundDistanceSensor sensor(ECHO_PIN, TRIGGER_PIN);
 bool state = IDLE;
@@ -68,24 +68,4 @@ void setup() {
     digitalWrite(GREEN_PIN, LOW);
     digitalWrite(BLUE_PIN, LOW);
     digitalWrite(MUSIC_PIN, LOW);
-}
-
-int main() {
-
-    init();
-
-#if defined(USBCON)
-    USBDevice.attach();
-#endif
-
-    setup();
-
-    for (;;) {
-        loop();
-
-        if (serialEventRun) {
-            serialEventRun();
-        }
-    }
-    return 0;
 }
